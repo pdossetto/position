@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 10px;
+}
+
+.red {
+  background-color: red;
+  width: 600px;
+}
+
+.blu {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.position2 {
+  position: relative;
+  left: 400px;
+}

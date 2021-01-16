@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_container {
+  position: relative;
+  background-color: green;
+  width: 1000px;
+  height: 500px;
+}
+.main_container > div {
+  position: absolute;
+  background-color:  blue;
+  height: 300px;
+  width: 300px;
+}
+
+.second_container {
+  left: 302px;
+}
+
+.first_container > div,
+.second_container > div {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.first_container div:last-child {
+  position: absolute;
+  right: 0;
+}
+
+.second_container div:last-child {
+  position: absolute;
+  left: 50px;
+}

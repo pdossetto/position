@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+}
+
+.red {
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  background-color: red;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  display: inline-block;
+  background-color: green;
+}
